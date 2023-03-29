@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: "Happy Monkey", sans-serif;
+    margin: 0;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mwf-img {
+    width: 25vw;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: 50% 40%; 
+    border: 6px solid #EFB0C9;
+    border-radius: 50%;
+}
+
+#bday-age {
+    background-color: #EFB0C9;
+    padding: 4px 12px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+}
+
+#bday-date {
+    background-color: #EFB0C9;
+    padding: 4px 12px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.gift-section {
+    margin-top: 25px;
+}
+
+.gift-img {
+    width: 38vw;
+    max-width: 440px;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+.gift-title {
+    margin: 0 0 10px 0;
+}
+
+.gift-hint {
+    margin: 0 0 15px 0;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/200.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/200w.webp");
+    background-position: 50% 50%;
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers {
+    aspect-ratio: 2 / 1;   
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-size: 1.2em;
+    font-style: italic;
+    width: 40vw;
+    margin: 1em auto 2em;
+}
+
+#footer a {
+    color: white;
+}
